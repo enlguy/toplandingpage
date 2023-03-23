@@ -89,17 +89,13 @@ button {
   .column {
     float: left;
     width: 25%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  }
-  
-  .info {
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Roboto';
   }
 
-  .row {
+.row {
     margin-top: 30px;
+    column-gap: 40px;
+    margin-left: 5vw;
   }
 
   /* Clear floats after the columns */
@@ -109,14 +105,49 @@ button {
     clear: both;
   }
 
+  .container {
+    height: 440px;
+  }
+
   .info {
     text-align: center;
     font-family: 'Roboto';
+    margin-top: 10px;
+    font-weight: bold;
     font-size: 24px;
+    margin-bottom: 100px;
   }
 
   img {
     width: 200px;
     height: auto;
     display: block;
+  }
+
+  .testimonial {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'roboto';
+    font-style: italic;
+    width: 60vw;
+    margin-left: 17vw;
+    padding-top: 100px;
+  }
+
+  .test-container {
+    background-color: #F3F647;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .speaker {
+    font-family: 'Roboto';
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .cta {
+    align-items: center;
   }
