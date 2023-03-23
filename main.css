@@ -2,7 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/rampage-monoline');
 
 .navbar {
-    height: 75px;
+    height: 100px;
     background-color: #88E1F2;
     align-items: center;
 }
@@ -36,3 +36,87 @@ li {
     display: inline;
     padding-right: 70px;
     }
+
+.hero {
+    background-color: #88E1F2;
+    height: 480px;
+}
+
+#heroi {
+    float: right;
+    margin-right: 50px;
+    width: 43%;
+    padding-top: 80px;
+    height: 355px;
+}
+
+.hero-text {
+    position: absolute;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.heading {
+    position: relative;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bolder;
+    top: 30px;
+    left: 40px;
+}
+
+.subtext {
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  .info {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .row {
+    margin-top: 30px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .info {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    display: block;
+  }
