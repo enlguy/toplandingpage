@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/rampage-monoline');
+
+.navbar {
+    height: 75px;
+    background-color: #88E1F2;
+    align-items: center;
+}
+
+#logo {
+    float:left;
+    margin:0;
+    font-family: 'Rampage Monoline', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: pink;
+    margin-left: 10px;                                 
+}
+
+#navlist {
+    float: right;
+    font-size: 20px;
+    margin-right: 50px; 
+}
+    
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: pink;
+}
+
+li {
+    display: inline;
+    padding-right: 70px;
+    }
