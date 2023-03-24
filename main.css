@@ -151,3 +151,42 @@ button {
   .cta {
     align-items: center;
   }
+
+  #buttonone {
+    top: 50px;
+    left: 100px;
+  }
+
+  #buttontwo {
+    top: 150px;
+    right: 1200px;
+  }
+
+  #buttonthree {
+    top: 75px;
+    right: 100px;
+  }
+
+  #buttonfour {
+    top: 300px;
+    right: 305px;
+  }
+
+  #buttonfive {
+    top: 200px;
+    right: 250px;
+  }
+
+.act {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: red;
+}
+
+.acttwo {
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 500;
+}
