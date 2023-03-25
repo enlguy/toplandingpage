@@ -168,13 +168,13 @@ button {
   }
 
   #buttonfour {
-    top: 300px;
-    right: 305px;
+    margin-bottom: 150px;
+    margin-right: 205px;
   }
 
   #buttonfive {
     top: 200px;
-    right: 250px;
+    margin-right: 100px;
   }
 
 .act {
